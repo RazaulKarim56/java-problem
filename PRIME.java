@@ -5,6 +5,11 @@
         System.out.print("Enter any positive number :");
         int n,count=0;
         n=input.nextInt();
+        if(n=0||n==1){
+            System.out.print("not prime");
+                }
+        else{
+            
         for(int i=2;i<n;i++){
         if(n%i==0){
         count++;
@@ -17,6 +22,7 @@
         else{
         System.out.print("not prime number ");
      }
+        }
         }
         
     }   
